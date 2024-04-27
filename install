@@ -43,6 +43,7 @@ fi
 }
 mod
 
+wget  https://raw.githubusercontent.com/Kecubunk/Bash_custom/master/bash_add.txt
 
 # mybash
 ###########################################
