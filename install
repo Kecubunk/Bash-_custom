@@ -1,5 +1,7 @@
 #!/bin/bash
 
+wget  https://raw.githubusercontent.com/Kecubunk/Bash_custom/master/bash_add.txt
+
 # bashrc modification
 FILE=/etc/bash.bashrc
 backup=$PWD/bash.bashrc
@@ -43,7 +45,10 @@ fi
 }
 mod
 
-wget  https://raw.githubusercontent.com/Kecubunk/Bash_custom/master/bash_add.txt
+sleep 2
+
+rm -f bash_add.txt
+
 
 # mybash
 ###########################################
